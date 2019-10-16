@@ -19,7 +19,7 @@ public class FXMLMain extends Application {
         primaryStage.setScene(new Scene(loader.load()));
 
         Controller controller = loader.getController();
-        controller.calendarPane.getChildren().add(new FullCalendarView(YearMonth.now()).getView());
+        controller.getCalendarPane().getChildren().add(new FullCalendarView(YearMonth.now()).getView());
         primaryStage.show();
     }
 
