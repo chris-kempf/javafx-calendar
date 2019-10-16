@@ -1,3 +1,4 @@
+package com.mill.calendar.view;
 import javafx.scene.Node;
 import javafx.scene.layout.AnchorPane;
 

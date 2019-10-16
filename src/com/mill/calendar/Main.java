@@ -1,8 +1,11 @@
+package com.mill.calendar;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.time.YearMonth;
+
+import com.mill.calendar.view.FullCalendarView;
 
 public class Main extends Application {
 
